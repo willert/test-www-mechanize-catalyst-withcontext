@@ -5,7 +5,9 @@ use 5.010;
 use Moose::Role;
 use namespace::autoclean;
 
-require 'ctx';
+use Carp;
+
+requires 'ctx';
 
 has hfh_default_stash_key => (
   is  => 'ro',

@@ -107,6 +107,4 @@ sub _do_catalyst_request {
   return $response
 }
 
-__PACKAGE__->meta->make_immutable;
-
 1;
