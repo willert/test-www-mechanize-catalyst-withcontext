@@ -5,6 +5,8 @@ use 5.010;
 use Moose;
 use namespace::autoclean;
 
+require Test::WWW::Mechanize::Catalyst 0.57;
+
 extends 'Test::WWW::Mechanize::Catalyst';
 with 'MooseX::Traits';
 
