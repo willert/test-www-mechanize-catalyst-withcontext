@@ -61,7 +61,7 @@
          "web" : "https://github.com/willert/test-www-mechanize-catalyst-withcontext"
       }
    },
-   "version" : "0.01",
+   "version" : "0.03",
    "x_contributors" : [
       "Sebastian Willert <willert@gmail.com>"
    ]
