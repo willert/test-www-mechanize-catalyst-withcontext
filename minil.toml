@@ -1,0 +1,7 @@
+name = "Test-WWW-Mechanize-Catalyst-WithContext"
+
+no_github_issues = true
+script_files = ['bin/*', 'sbin/*', 'script/*']
+
+[release]
+do_not_upload_to_cpan = true
