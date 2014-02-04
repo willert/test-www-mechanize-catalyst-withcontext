@@ -1,11 +1,13 @@
 package Test::WWW::Mechanize::Catalyst::WithContext;
 # ABSTRACT: somewhat hackish way to access context through TWMC
 
+our $VERSION = '0.03';
+
 use 5.010;
 use Moose;
 use namespace::autoclean;
 
-require Test::WWW::Mechanize::Catalyst 0.57;
+require Test::WWW::Mechanize::Catalyst;
 
 extends 'Test::WWW::Mechanize::Catalyst';
 with 'MooseX::Traits';
@@ -110,3 +112,11 @@ sub _do_catalyst_request {
 }
 
 1;
+__END__
+
+=head1 AUTHORS
+
+Sebastian Willert <s.willert@wecare.de>
+Susanne Schmidt <susanne.schmidt@wecare.de>
+
+=cut
