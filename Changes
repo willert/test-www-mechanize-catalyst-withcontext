@@ -2,4 +2,10 @@ Revision history for Test::WWW::Mechanize::Catalyst::WithContext
 
 {{$NEXT}}
 
+0.03 2014-05-27T00:13:24Z
+
+  - Test::WWW::Mechanize::Catalyst
+
+0.01
+
   - Initial release
