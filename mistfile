@@ -1,4 +1,4 @@
-perl '5.14.2';
+perl '5.20.3';
 
 notest 'ok';
 notest 'Test::Exception';
